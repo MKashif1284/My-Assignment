@@ -1,0 +1,20 @@
+/* @font-face {
+    font-family: myfont;
+    src: url("./Fonts/MomoSignature-Regular.ttf")format('True Type Font');
+    font-weight: normal; 
+      font-style: normal; 
+} */
+h1 {
+  font-family: "Momo Signature", cursive;
+  font-weight: 400;
+  font-style: normal;
+  }
+
+h1 {background: #F85032;
+background: linear-gradient(to right, #F85032 0%, #F16F5C 50%, #F6290C 51%, #F02F17 71%, #E73827 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+#uper{
+  text-transform: uppercase; word-spacing: ;
+}
