@@ -5,16 +5,46 @@
       font-style: normal; 
 } */
 h1 {
-  font-family: "Momo Signature", cursive;
+  font-family: "Pacifico", cursive;
   font-weight: 400;
   font-style: normal;
-  }
-
-h1 {background: #F85032;
-background: linear-gradient(to right, #F85032 0%, #F16F5C 50%, #F6290C 51%, #F02F17 71%, #E73827 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
 }
-#uper{
-  text-transform: uppercase; word-spacing: ;
+p{
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h1 {
+  background: #F0B7A1;
+background: linear-gradient(to right, #F0B7A1 0%, #BF6E4E 100%);
+background-clip: text;
+-webkit-text-fill-color: transparent;
+
+text-align: center;
+font-size: 4em;
+text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+h1{text-decoration: underline overline rgb(228, 217, 217);
+ 
+}
+
+#uper {
+  font-size: .9em;
+  text-transform: uppercase;
+  word-spacing: .5em;
+ }
+#uper::first-letter{font-size: 2em; color: #F16F5C;
+}
+#lpw {
+  font-size: .9em;
+  word-spacing: 1em;
+ }
+#low::first-letter{font-size: 2em; color: #F16F5C;
+}
+#cap{font-size: .9em;
+  text-transform: capitalize;
+}
+#cap::first-letter{font-size: 2em; color: #F16F5C;
 }
